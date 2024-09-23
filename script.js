@@ -22,6 +22,6 @@ document.getElementById('ageForm').addEventListener('submit', function (event) {
 		alert(`Welcome, ${name}. You can vote.`);
 	})
 	.catch(() => {
-		alert('Oh sorry, Doe. You aren't old enough');
+		alert(`Oh sorry, ${name}. You aren't old enough`);
 	});
 });
